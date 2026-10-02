@@ -1,0 +1,25 @@
+.payment {
+  margin-top: 10px;
+  text-align: center; /* This works for inline elements, but not block elements */
+
+  input {
+    height: 30px;
+  }
+  button {
+    color: white;
+    background-color: rgb(42, 42, 224);
+    border-radius: 3px;
+    padding: 10px;
+    
+    /* 1. Change display to block so auto-margins work */
+    display: block; 
+    
+    /* 2. Top margin 15px (as you had), Left/Right auto to center it */
+    margin: 15px auto 0 auto; 
+  }
+  button:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+  }
+}
