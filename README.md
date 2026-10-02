@@ -90,7 +90,6 @@ spring.datasource.username=postgres
 spring.datasource.password=YOUR_PASSWORD
 spring.jpa.hibernate.ddl-auto=update
 
-Do not upload real database passwords or other credentials to GitHub.
 
 Running the Backend
 
